@@ -1,33 +1,49 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
+import React, { useState } from 'react'
+import './App.css'
+import AnimalShow from './AnimalShow'
+
+
+
+function getRandomAnimal() {
+  const animals = ['bird', 'cat', 'cow','dog', 'gator', 'horse']
+  const randomIndex = Math.floor(Math.random() * animals.length)
+  return animals[randomIndex]
+}
+
+const App = () => {
+  const[number,setNumber] = useState(0)
+  const[animals,setAnimals] = useState([])
+
+  const handleClick = () => {
+    console.log('Button was Clicked!')
+    setNumber(number + 1)
+
+    if(number >= 3) {
+      setNumber(3)
+    }
+  } 
+
+  const handleShowAnimal = () => {
+    setAnimals([...animals, getRandomAnimal()])
+    console.log(animals)
+  }
+
+  const renderedAnimals = animals.map((animal, index) => {
+    return <AnimalShow key={index} type={animal} />
+  })
+
 
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    <div className='app'>
+      <button onClick={handleClick}>Add Animal!</button>
+        <p>Animals to show: {number}</p>
+      {
+        number === 3 ?
+        <p>You can`t add more animals </p> : null
+      }
+      <button onClick={handleShowAnimal}>Show Animals</button>
+      <div className='animal-list'>{renderedAnimals}</div>
     </div>
   )
 }
