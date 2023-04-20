@@ -1,8 +1,11 @@
 import React from 'react'
 
-const ImageShow = () => {
+const ImageShow = ({ image }) => {
+  console.log(image)
   return (
-    <div>ImageShow</div>
+    <>
+      <img src={image.urls.small} alt="" />
+    </>
   )
 }
 
