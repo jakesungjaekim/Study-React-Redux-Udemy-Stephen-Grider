@@ -14,7 +14,7 @@ const BookShow = ({ book, onDelete, onEdit }) => {
     setShowEdit(!showEdit)
   }
   
-  const handleSubmit = (id, newTitle) => {
+  const handleSubmit = (id, newTitle) => { 
     setShowEdit(false)
     onEdit(id, newTitle)
   }
@@ -47,3 +47,4 @@ const BookShow = ({ book, onDelete, onEdit }) => {
 }
 
 export default BookShow
+
