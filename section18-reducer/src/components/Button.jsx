@@ -1,4 +1,3 @@
-import React from 'react'
 import className from 'classnames'
 import PropTypes from 'prop-types'
 
@@ -13,7 +12,6 @@ const Button = ({
   rounded,
   ...rest
   }) => {
-  console.log(rest)
 
   const classes = className(rest.className,'flex items-center justify-center w-48 h-24 px-4 py-2 mb-2 ', {
     'text-lg duration-500 bg-blue-300 border-blue-600 hover:bg-blue-500': primary,
