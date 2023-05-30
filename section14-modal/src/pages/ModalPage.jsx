@@ -94,7 +94,6 @@ const ModalPage = () => {
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fermentum molestie aliquam. Sed quis ante bibendum, gravida nibh in, mattis quam. Ut vel sodales sapien. Aliquam erat volutpat. Fusce lacinia quam eget mi pharetra pellentesque. Duis a pretium turpis. Phasellus facilisis odio id nulla auctor mattis. Duis ut purus felis. Sed non mollis risus. Nulla laoreet sem at facilisis rutrum.
       </p>
-    
     </div>
   )
 }

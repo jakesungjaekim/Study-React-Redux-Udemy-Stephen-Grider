@@ -36,7 +36,6 @@ const SortableTable = (props) => {
   // Make a copy of the 'data' prop
   // Find the correct sortValue function and use it for sorting
 
-
   return (
     <div>
       <Table {...props} data={sortedData} config={updatedConfig}/>
