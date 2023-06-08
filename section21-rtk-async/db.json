@@ -1,10 +1,22 @@
 {
   "users": [
-    {"id": 1, "name": "Myra"}
+    {
+      "name": "Herman White",
+      "id": 1
+    },
+    {
+      "name": "Florence Lebsack",
+      "id": 4
+    },
+    {
+      "name": "Jose Ondricka",
+      "id": 5
+    },
+    {
+      "name": "Bill Kassulke",
+      "id": 6
+    }
   ],
   "albums": [],
   "photos": []
 }
-
-
-
