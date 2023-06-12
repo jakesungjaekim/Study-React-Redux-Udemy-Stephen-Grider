@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "name": "Florence Lebsack",
+      "id": 4
+    },
+    {
+      "name": "Blanche Bernhard",
+      "id": 5
+    },
+    {
+      "name": "Taylor Johnston",
+      "id": 6
+    },
+    {
+      "name": "Jose Littel DDS",
+      "id": 7
+    },
+    {
+      "name": "Beverly Wolff",
+      "id": 8
+    },
+    {
+      "name": "Janice Stoltenberg",
+      "id": 9
+    }
+  ],
+  "albums": [
+    {
+      "userId": 4,
+      "title": "Licensed Fresh Soap",
+      "id": 33
+    },
+    {
+      "userId": 4,
+      "title": "Bespoke Soft Chair",
+      "id": 36
+    },
+    {
+      "userId": 5,
+      "title": "Refined Plastic Chips",
+      "id": 37
+    },
+    {
+      "userId": 4,
+      "title": "Awesome Soft Car",
+      "id": 38
+    },
+    {
+      "userId": 4,
+      "title": "Rustic Rubber Sausages",
+      "id": 39
+    }
+  ],
+  "photos": []
+}
