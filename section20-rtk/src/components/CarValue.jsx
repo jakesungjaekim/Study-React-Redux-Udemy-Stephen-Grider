@@ -19,4 +19,4 @@ const CarValue = () => {
   )
 }
 
-export default CarValue
+export default CarValue 
