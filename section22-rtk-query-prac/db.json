@@ -1,0 +1,122 @@
+{
+  "users": [
+    {
+      "name": "Elsie Price",
+      "id": 3
+    },
+    {
+      "name": "Harold Strosin",
+      "id": 4
+    }
+  ],
+  "albums": [
+    {
+      "userId": 3,
+      "title": "Recycled Steel Tuna",
+      "id": 20
+    },
+    {
+      "userId": 4,
+      "title": "Recycled Granite Towels",
+      "id": 21
+    },
+    {
+      "userId": 3,
+      "title": "Refined Frozen Ball",
+      "id": 27
+    },
+    {
+      "userId": 3,
+      "title": "Sleek Cotton Keyboard",
+      "id": 28
+    },
+    {
+      "userId": 3,
+      "title": "Handcrafted Soft Hat",
+      "id": 29
+    },
+    {
+      "userId": 3,
+      "title": "Awesome Frozen Bacon",
+      "id": 33
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=31606",
+      "id": 1
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=46196",
+      "id": 2
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=32891",
+      "id": 3
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=12173",
+      "id": 4
+    },
+    {
+      "albumId": 20,
+      "url": "https://loremflickr.com/150/150/abstract?lock=3656",
+      "id": 5
+    },
+    {
+      "albumId": 20,
+      "url": "https://loremflickr.com/150/150/abstract?lock=44238",
+      "id": 6
+    },
+    {
+      "albumId": 20,
+      "url": "https://loremflickr.com/150/150/abstract?lock=37156",
+      "id": 7
+    },
+    {
+      "albumId": 20,
+      "url": "https://loremflickr.com/150/150/abstract?lock=56078",
+      "id": 8
+    },
+    {
+      "albumId": 20,
+      "url": "https://loremflickr.com/150/150/abstract?lock=81992",
+      "id": 9
+    },
+    {
+      "albumId": 20,
+      "url": "https://loremflickr.com/150/150/abstract?lock=11999",
+      "id": 10
+    },
+    {
+      "albumId": 20,
+      "url": "https://loremflickr.com/150/150/abstract?lock=30983",
+      "id": 11
+    },
+    {
+      "albumId": 20,
+      "url": "https://loremflickr.com/150/150/abstract?lock=72006",
+      "id": 12
+    },
+    {
+      "albumId": 20,
+      "url": "https://loremflickr.com/150/150/abstract?lock=43948",
+      "id": 13
+    },
+    {
+      "albumId": 27,
+      "url": "https://loremflickr.com/150/150/abstract?lock=80723",
+      "id": 28
+    },
+    {
+      "albumId": 27,
+      "url": "https://loremflickr.com/150/150/abstract?lock=43500",
+      "id": 29
+    },
+    {
+      "albumId": 27,
+      "url": "https://loremflickr.com/150/150/abstract?lock=26163",
+      "id": 30
+    }
+  ]
+}
